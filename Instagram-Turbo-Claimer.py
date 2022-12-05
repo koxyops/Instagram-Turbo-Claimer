@@ -1,7 +1,7 @@
 import os
 try:
-    import requests, random, time, string, hashlib,hmac,sys,uuid,json,os,discord,ctypes,threading,stdiomask
-    from user_agent import *
+import requests, random, time, string, hashlib,hmac,sys,uuid,json,os,ctypes,threading,stdiomask
+from user_agent import *
     import stdiomask
     from colorama import Fore , init
     from threading import Lock
@@ -11,7 +11,7 @@ except:
     os.system("pip install colorama")
     os.system("pip install user_agent")
     os.system("pip install requests")
-    import requests, random, time, string, hashlib,hmac,sys,uuid,json,os,discord,ctypes,threading,stdiomask
+    import requests, random, time, string, hashlib,hmac,sys,uuid,json,os,ctypes,threading,stdiomask
     from user_agent import *
     import stdiomask
     from discord import Webhook, RequestsWebhookAdapter
